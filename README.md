@@ -11,14 +11,14 @@ for (statement 1; statement 2; statement 3) {
 }
 ```
 
-## Example 1: internal variable and simple for loop
+### Example 1: internal variable and simple for loop
 ```java
 for (int i = 0; i < 11; i++) {
 	System.out.println("i: " + i);
 }
 ```
 
-## Example 2: for loop with array values
+### Example 2: for loop with array values
 ```java
 int[] values = new int[] { 3, 4, 5 };
 for (int i = 0; i < values.length; i++) {
@@ -26,7 +26,7 @@ for (int i = 0; i < values.length; i++) {
 }
 ```
 
-## Example 3: decrease loop
+### Example 3: decrease loop
 
 ```java
 int i;
@@ -35,7 +35,7 @@ for (i = 10; i >= 0; i--) {
 }
 ```
 
-## Example 4: increase step 2
+### Example 4: increase step N 
 
 ```java
 int i;
@@ -44,7 +44,7 @@ for (i = 0; i <= 10; i += 2) {
 }
 ```
 
-## Example 5: external variable and decrease step 2
+### Example 5: decrease step N
 
 ```java
 int i;
